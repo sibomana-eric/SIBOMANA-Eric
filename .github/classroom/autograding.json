@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Run tests",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest test_farm_calculator.py::test_calculate_square_footage",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      }
+    ]
+  }
